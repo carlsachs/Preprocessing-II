@@ -272,13 +272,29 @@ nav a:hover {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
+@media (max-width: 500px) {
+  .inverse-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
 .inverse-content .text-content {
   padding-left: 1%;
   padding-right: 0;
 }
+@media (max-width: 500px) {
+  .inverse-content .text-content {
+    padding-left: 4%;
+  }
+}
 .inverse-content .img-content {
   padding-right: 1%;
   padding-left: 0;
+}
+@media (max-width: 500px) {
+  .inverse-content .img-content {
+    padding-left: 8%;
+  }
 }
 .content-destination {
   width: 75%;
