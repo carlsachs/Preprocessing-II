@@ -285,6 +285,7 @@ nav a:hover {
 @media (max-width: 500px) {
   .inverse-content .text-content {
     padding-left: 4%;
+    padding-bottom: 10px;
   }
 }
 .inverse-content .img-content {
@@ -309,9 +310,22 @@ nav a:hover {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .content-pick {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .content-pick .destination {
+    width: 100%;
+    padding: 50px;
+    padding-bottom: 0;
+  }
 }
 .content-pick .destination .btn {
   padding: 15px;
